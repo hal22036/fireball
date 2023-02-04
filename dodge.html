@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/dodge.css">
+    <title>Dodge Ball Game</title>
+</head>
+<body>
+    <h1>Fireball Dodger</h1>    
+    <p>Use the arrow keys to move Redman (➡️⬇️⬅️⬆️)</p>
+    <p>Object: Stay away from the fireballs and don't get hit!</p>
+    <div class="header">
+        Score: <strong class="score">0</strong>
+    </div>
+
+    <!-- <div id="game-start" class="screen">
+        <h1>Start Game</h1>
+        <button class="tart-btn">Start Game</button>
+    </div> -->
+
+    <canvas id="canvas" width="700" height="700"></canvas>
+    <img src="images/redman-transparent.png" alt="character" id="redman">
+    <img src="images/Fireball2.png" alt="enemy" id="fireball">
+    <img src="images/volcano.png" alt="volcano" id="volcano">
+
+    <!-- <div id="game-over" class="screen">
+        <h1>Game Over</h1>
+        <button class="restart-btn">Restart Game</button>
+    </div> -->
+    
+    <script src="scripts/fireball.js"></script>
+    
+</body>
+</html>
